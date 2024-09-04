@@ -1,7 +1,6 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import './Api.css';
 import Item from '../components/item/item'
-import logo from '../assets/pp.jpg'
 
 function ApiComponent() {
     const [items, setItems] = useState([]);
