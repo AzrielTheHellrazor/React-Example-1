@@ -1,0 +1,25 @@
+.itemWrapper{
+    background-color: #afacac;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 1rem;
+    padding: 1rem;
+    width: 95%;
+    gap: 10px;
+    filter: drop-shadow(4px 4px 4px black);
+}
+
+.itemTitle{
+    height: 40px;
+}
+
+.itemBody{
+    font-size: 16px;
+}
+
+img{
+    width: 40px;
+    height: 40px;
+}
+

@@ -1,0 +1,32 @@
+.header {
+    background-color: #bb6e26;
+    color: white;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.header img{
+    width: 100px;
+    height: 100px;
+    padding: 10px 0px 10px 5px;
+}
+
+.right-section{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    padding: 0px 20px;
+}
+
+.right-section a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    background-color: red;
+    border-width: 20px;
+    border: solid 2px black;
+    border-radius: 8px;
+}
